@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 class Main{
     public static void main(String[] args) {
+    //Step output
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for(int i = 0;i<n;i++){
@@ -10,7 +11,7 @@ class Main{
                 System.out.print("\t");
             }
 
-            for(int k = 0;k<i;k++){
+            for(int k = 0;k<=i;k++){
                 System.out.print("CSBS\t");
             }
             System.out.println();
